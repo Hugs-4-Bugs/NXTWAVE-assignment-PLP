@@ -1,0 +1,76 @@
+/* src/styles/AuthForm.module.css */
+.form {
+    max-width: 450px; /* Slightly wider form */
+    margin: 3rem auto; /* Increased margin */
+    padding: 2rem;
+    border: 1px solid #e0e0e0; /* Lighter border */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    background-color: white; /* Ensure white background */
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 2rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem; /* Increased margin */
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.75rem; /* Increased margin */
+    font-weight: 600; /* Make labels bold */
+    color: #444; /* Darker label color */
+    font-size: 1.1rem;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 0.8rem; /* Slightly increased padding */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* More rounded corners */
+    box-sizing: border-box;
+    font-size: 1.1rem; /* increased font size */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  .formGroup input:focus {
+    outline: none;
+    border-color: #3498db; /* Highlight on focus */
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2); /* Add a subtle shadow */
+  }
+  
+  .form button {
+    background-color: #3498db; /* Use a prominent color (e.g., blue) */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem; /* Slightly increased vertical padding */
+    border-radius: 6px; /* More rounded corners */
+    cursor: pointer;
+    font-size: 1.1rem; /* Increased font size */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition */
+    width: 100%; /* Make button full width */
+  }
+  
+  .form button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
+  /* Add styling for links within the form if needed */
+  .form a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+  
+  .form a:hover {
+    text-decoration: underline;
+  }
+  

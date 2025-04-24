@@ -82,7 +82,7 @@ export const fetchProducts = async () => {
 
 ## Hosting
 
-The application is hosted on **Vercel** (or **Netlify**) for public access. You can view the live version [here](https://your-vercel-url).
+The application is hosted on **Vercel** for public access. You can view the live version [here](https://your-vercel-url).
 
 ## Screenshots
 

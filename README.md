@@ -86,7 +86,8 @@ The application is hosted on **Vercel** (or **Netlify**) for public access. You 
 
 ## Screenshots
 
-![Homepage Screenshot](screenshots/homepage.png)
+<img width="1440" alt="Screenshot 2025-04-24 at 3 18 19 PM" src="https://github.com/user-attachments/assets/91eb0ef1-8868-4ca7-8486-2f9b240f695a" />
+
 
 ## Future Improvements
 
